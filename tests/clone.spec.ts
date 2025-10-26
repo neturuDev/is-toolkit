@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { clone, cloneDeep, cloneWith, cloneDeepWith } from "../clone";
+import { clone, cloneDeep, cloneWith, cloneDeepWith } from "../lib/clone";
 
 describe("clone (shallow)", () => {
   it("clones arrays shallowly", () => {

@@ -1,5 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { getTag, ownKeys, hasOwn, isPrimitive, baseIsMatch } from "../common";
+import {
+  getTag,
+  ownKeys,
+  hasOwn,
+  isPrimitive,
+  baseIsMatch,
+} from "../lib/common";
 
 const match = (obj: any, src: any) => baseIsMatch(obj, src, new WeakMap());
 

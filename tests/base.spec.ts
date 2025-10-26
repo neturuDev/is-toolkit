@@ -17,7 +17,7 @@ import {
   isEmpty,
   isEqual,
   isMatch,
-} from "../base";
+} from "../lib/base";
 
 describe("base utilities", () => {
   it("isSymbol detects symbols", () => {

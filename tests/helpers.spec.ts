@@ -7,7 +7,7 @@ import {
   escape,
   unescape,
   escapeRegExp,
-} from "../helpers";
+} from "../lib/helpers";
 
 describe("helpers", () => {
   describe("difference", () => {

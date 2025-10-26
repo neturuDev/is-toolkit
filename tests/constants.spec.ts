@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { OBJECT_TYPES } from "../constants";
+import { OBJECT_TYPES } from "../lib/constants";
 
 describe("OBJECT_TYPES constants", () => {
   it("exports the expected keys", () => {
