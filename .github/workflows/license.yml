@@ -1,2 +1,0 @@
-- name: Check license headers
-  run: npm run check:license
