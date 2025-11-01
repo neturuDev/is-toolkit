@@ -5,15 +5,15 @@ A TypeScript utility library for type checking and validation.
 ## Installation
 
 ```bash
-npm install is-ts
+npm install @neturu/is-ts
 ```
 
 ## Usage
 
 ```typescript
-import { isString } from "is-ts";
-import { isNumber } from "is-ts";
-import { isArray } from "is-ts";
+import { isString } from "@neturu/is-ts";
+import { isNumber } from "@neturu/is-ts";
+import { isArray } from "@neturu/is-ts";
 // ... import other functions as needed
 
 // Type checking examples
