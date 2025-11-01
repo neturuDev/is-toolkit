@@ -1,19 +1,19 @@
-# is-toolkit
+# check-toolkit
 
 A TypeScript utility library for type checking and validation.
 
 ## Installation
 
 ```bash
-npm install is-toolkit
+npm install check-toolkit
 ```
 
 ## Usage
 
 ```typescript
-import { isString } from "is-toolkit";
-import { isNumber } from "is-toolkit";
-import { isArray } from "is-toolkit";
+import { isString } from "check-toolkit";
+import { isNumber } from "check-toolkit";
+import { isArray } from "check-toolkit";
 // ... import other functions as needed
 
 // Type checking examples
